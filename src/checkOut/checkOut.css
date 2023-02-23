@@ -1,0 +1,48 @@
+.checkOutPage {
+  width: 100%;
+  height: 33rem;
+  display: flex;
+  flex-direction: column;
+}
+.leftSideShoppingList {
+  width: 75%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add {
+  width: 95%;
+  height: auto;
+  margin: 1rem;
+}
+.productlist {
+  width: 95%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+.listOfProduct h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.2rem;
+}
+.checkOutProductList {
+  width: 95%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.imgCheckOutProduct {
+  height: inherit;
+  width: 8rem;
+}
+
+.checkOutProduct {
+  margin: 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+}
